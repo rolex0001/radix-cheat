@@ -1,6 +1,6 @@
 # CSGO External Tool
 
-A CSGO external based tool featuring BSPParsing with bunny-hop, trigger-bot, aim-assist, no flash, walk-bot and glow esp.
+A CSGO external based tool featuring BSPParsing with bunny-hop, aim-assist, no flash, and glow esp.
 
 # How to use
 0. Update the offsets (see below)

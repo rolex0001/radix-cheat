@@ -36,10 +36,6 @@ int main(int argc, char** argv)
       client.resetSensitivity();    // re-enable user input
 
 
-    if ((GetAsyncKeyState(VK_XBUTTON1) & KEY_DOWN))
-      hacks.inCrossTriggerBot();
-
-
     if (GetAsyncKeyState(VK_SPACE) & KEY_DOWN)
       hacks.bunnyHop();
   }
