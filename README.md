@@ -1,8 +1,6 @@
 # CSGO External Tool
 
-![banner](https://i.imgur.com/Oey0qXv.jpg)
-
-A CSGO external based tool featuring BSPParsing (credits to https://github.com/ReactiioN1337/valve-bsp-parser), bunny-hop, trigger-bot, aim-assist, no flash, walk-bot and glow esp.
+A CSGO external based tool featuring BSPParsing with bunny-hop, trigger-bot, aim-assist, no flash, walk-bot and glow esp.
 
 # How to use
 0. Update the offsets (see below)
