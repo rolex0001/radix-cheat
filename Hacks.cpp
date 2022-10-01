@@ -279,39 +279,6 @@ namespace hazedumper
     return isEnemy;
   }
 
-  void Hacks::inCrossTriggerBot()
-  {
-    BaseEntity localPlayer = client->getLocalPlayer();
-    if (enemyIsInCrossHair())
-      localPlayer.shoot();
-    else
-      localPlayer.setForceAttack(4);
-  }
-
-  void Hacks::walkBot()
-  {
-    BaseEntity localPlayer = client->getLocalPlayer();
-
-    if (!localPlayer.isValidPlayer())
-      return;
-
-    Vector3 viewAngles = client->getViewAngles();
-    Vector3 velocity = localPlayer.getVelocity();
-    float speed = sqrt(velocity(0) * velocity(0) + velocity(1) * velocity(1));
-
-    if (speed < 150.f)
-    {
-      viewAngles(0) = 0.f;
-      viewAngles(1) += 1.f;
-      viewAngles(2) = 0.f;
-
-      normalizeAngles(viewAngles);
-      clampAngles(viewAngles);
-
-      client->setViewAngles(viewAngles);
-    }
-  }
-
   void Hacks::normalizeAngles(Vector3& angles)
   {
     while (angles(0) > 89.f)

@@ -21,9 +21,7 @@ namespace hazedumper
     void noFlash();
     void bunnyHop();
     bool aimAssist(float fov, int boneId);  // legit aimbot - if low then aim chest
-    void aimBot(float fov, int boneId);     // blatant aimbot
-    void inCrossTriggerBot();
-    void walkBot();                         // can be used with aimAssist to make a deathmatch bot
+    void aimBot(float fov, int boneId);     // blatant aimbot                       // can be used with aimAssist to make a deathmatch bot
     Hacks(Memory* memory, Client* client, BSPParser* bspParser);
     ~Hacks();
   };
