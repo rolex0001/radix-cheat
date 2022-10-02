@@ -1,10 +1,8 @@
 #pragma once
 #include "Client.hpp"
-namespace hazedumper
-{
+namespace hazedumper{
 
-  float Client::getSensitivity()
-  {
+  float Client::getSensitivity(){
     uint32_t sensitivityPtr = memory->read<uint32_t>(memory->clientDll + signatures::dwSensitivityPtr);
     uint32_t sensitivity = memory->read<uint32_t>(memory->clientDll + signatures::dwSensitivity);
 
@@ -15,21 +13,18 @@ namespace hazedumper
   	return sens;
   }
 
-  void Client::setSensitivity(float sens)
-  {
+  void Client::setSensitivity(float sens){
     uint32_t sensitivityPtr = memory->read<uint32_t>(memory->clientDll + signatures::dwSensitivityPtr);
   	 uint32_t sensitivity = *reinterpret_cast<uint32_t*>(&sens) ^ sensitivityPtr;
 
     memory->write<uint32_t>(memory->clientDll + signatures::dwSensitivity, sensitivity);
   }
 
-  void Client::resetSensitivity()
-  {
+  void Client::resetSensitivity(){
     setSensitivity(defaultSensitivity);
   }
-
-  bool Client::worldToScreen(const Vector3& from, Vector3& to)
-  {
+// This is for the client::world To Screen
+  bool Client::worldToScreen(const Vector3& from, Vector3& to){
     WorldToScreenMatrix matrix = memory->read<WorldToScreenMatrix>(memory->clientDll + signatures::dwViewMatrix);
 
     float w = 0.0f;
