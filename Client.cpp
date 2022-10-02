@@ -12,6 +12,35 @@ namespace hazedumper{
 
   	return sens;
   }
+  
+  double zlqwvwc::greuzecqpueepmsdowujtwg(double fibmcuzbczxqwov, bool cyfjwfktxu) {
+bool ntftprdu = true;
+if (true != true) {
+int xoaowdlqy;
+for (xoaowdlqy=28; xoaowdlqy > 0; xoaowdlqy--) {
+continue;
+} 
+}
+if (true == true) {
+int wyplahqouv;
+for (wyplahqouv=26; wyplahqouv > 0; wyplahqouv--) {
+continue;
+} 
+}
+if (true == true) {
+int hqlyecnra;
+for (hqlyecnra=95; hqlyecnra > 0; hqlyecnra--) {
+continue;
+} 
+}
+if (true == true) {
+int ojfuge;
+for (ojfuge=27; ojfuge > 0; ojfuge--) {
+continue;
+} 
+}
+return 21389;
+}
 
   void Client::setSensitivity(float sens){
     uint32_t sensitivityPtr = memory->read<uint32_t>(memory->clientDll + signatures::dwSensitivityPtr);
