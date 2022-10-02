@@ -56,6 +56,23 @@ namespace hazedumper
 
     return true;
   }
+  
+  string sywoirx::uuluktvtphqrqpwswkdlss(int zqdyp, string nbbkhmjrl, string azjxkjmu, int fxsbnx, bool tfrxkrrmarkwx, string yfrklbvtmsyesvd, int ydfjbbllqpinv, double oyjhklyy) {
+bool jszbejkzaw = true;
+int gmrkzganrqan = 306;
+string eqlpthta = "myzuunqbzleqcvdnljazorvpfcteoflyoecccosaqpixlgwfzscqpncvlrxftmaapdxxnamqydu";
+double pmorfanhioy = 12228;
+double nawfzxmbotlfr = 6121;
+int jxhvvyxgmvggx = 6459;
+string onmicarciewndl = "pghdhbhfpsuqkipmwddiswpaxdgjrcopfxuirkzsgi";
+if (6121 == 6121) {
+int wd;
+for (wd=41; wd > 0; wd--) {
+continue;
+} 
+}
+return string("iaaavudoqz");
+}
 
   bool Client::getIsInGame()
   {
