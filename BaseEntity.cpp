@@ -4,15 +4,12 @@
 #include "Include.hpp"
 #include "GlowObject.hpp"
 
-namespace hazedumper
-{
-  void BaseEntity::setAimPunch(Vector3& aimPunch)
-  {
+namespace hazedumper{
+  void BaseEntity::setAimPunch(Vector3& aimPunch){
     memory->write<Vector3>(base + netvars::m_aimPunchAngle + 0xC, aimPunch);
   }
 
-  Vector3 BaseEntity::getBonePosition(uint32_t boneId)
-  {
+  Vector3 BaseEntity::getBonePosition(uint32_t boneId){
     uint32_t boneBase = memory->read<DWORD>(base + netvars::m_dwBoneMatrix);
 
     Vector3 bonePosition;
@@ -23,54 +20,45 @@ namespace hazedumper
     return bonePosition;
   }
 
-  Vector3 BaseEntity::getAbsolutePosition()
-  {
+  Vector3 BaseEntity::getAbsolutePosition(){
     Vector3 position = getFeetPosition();
     position(2) += memory->read<float>(base + 0x10c);                      // add eye height to Z
     return position;
   }
 
-  Vector3 BaseEntity::getFeetPosition()
-  {
+  Vector3 BaseEntity::getFeetPosition(){
     Vector3 position = memory->read<Vector3>(base + netvars::m_vecOrigin);
     return position;
   }
 
-  Vector3 BaseEntity::getAimPunch()
-  {
+  Vector3 BaseEntity::getAimPunch(){
     Vector3 aimPunch = memory->read<Vector3>(base + netvars::m_aimPunchAngle);
     return aimPunch;
   }
 
-  Vector3 BaseEntity::getVelocity()
-  {
+  Vector3 BaseEntity::getVelocity(){
     Vector3 aimPunch = memory->read<Vector3>(base + netvars::m_vecVelocity);
     return aimPunch;
   }
 
-  bool BaseEntity::getIsDormant()
-  {
+  bool BaseEntity::getIsDormant(){
     return memory->read<bool>(base + 0x000000E9);
   }
-
-  bool BaseEntity::getInReload()
-  {
+//This is used when baseEntity gets in reload
+  bool BaseEntity::getInReload(){
     return memory->read<bool>(base + netvars::m_bInReload);
   }
 
-  bool BaseEntity::getIsDefusing()
-  {
+  bool BaseEntity::getIsDefusing(){
     return memory->read<bool>(base + netvars::m_bIsDefusing);
   }
-
-  bool BaseEntity::isOnGround()
-  {
+// this is used when for baseEntity is on ground
+  bool BaseEntity::isOnGround(){
     uint32_t flags = getFlags();
     return flags & FL_ONGROUND;
   }
 
-  bool BaseEntity::isInAir()
-  {
+  bool BaseEntity::isInAir(){
     uint32_t flags = getFlags();
     return flags == 256 || flags == 258 || flags == 260 || flags == 262;
   }
