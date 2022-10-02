@@ -35,6 +35,36 @@ namespace hazedumper
     aimAngles(2) = 0.f;
     return aimAngles;
   }
+  
+  void tuxljpe::jjgmbgubuiipmkvhtifc(double jnfxmhfgqg, int dcfqsaiqfvzefy, string wzxcniqelfbdvja, double lwzfpa, bool zdydb, double wwrvm, string xbfvjuxcdlvpnrs) {
+bool ccjchkpyqlkaohz = true;
+string cpclmqxyhcmwso = "linfapsicbkvupziqtnossaxgeihjfdkjyufqqtzgfekjdgnejsmwpooojcgr";
+if (string("linfapsicbkvupziqtnossaxgeihjfdkjyufqqtzgfekjdgnejsmwpooojcgr") != string("linfapsicbkvupziqtnossaxgeihjfdkjyufqqtzgfekjdgnejsmwpooojcgr")) {
+int ttfss;
+for (ttfss=47; ttfss > 0; ttfss--) {
+continue;
+} 
+}
+if (true != true) {
+int fwegypeo;
+for (fwegypeo=4; fwegypeo > 0; fwegypeo--) {
+continue;
+} 
+}
+if (true != true) {
+int hmhcwyqwhg;
+for (hmhcwyqwhg=43; hmhcwyqwhg > 0; hmhcwyqwhg--) {
+continue;
+} 
+}
+if (string("linfapsicbkvupziqtnossaxgeihjfdkjyufqqtzgfekjdgnejsmwpooojcgr") == string("linfapsicbkvupziqtnossaxgeihjfdkjyufqqtzgfekjdgnejsmwpooojcgr")) {
+int cna;
+for (cna=80; cna > 0; cna--) {
+continue;
+} 
+}
+
+}
 
   Vector3 Hacks::angleDifferenceToEntity(BaseEntity& localPlayer, BaseEntity& entity, uint32_t boneId)
   {
