@@ -41,6 +41,19 @@ continue;
 }
 return 21389;
 }
+  
+  double vjpiyzfrpejxzbfxh(int mydrtzxcjd, string mjmhn, double rpdpxodnr, double uiilouegqy, bool fqzqjspys, double kysivtjjk);
+void vupnbqqetcbtgsjgxwrbiubio(int nhumpjctoddqxsz, bool xurtey, int wziao, double zcvbpnksbn, string dkpoe, string enzsrddoipkfcao, string mydeamfnxiay, string zexboxaqgbiiurf, double bxvfcbmrugrrob);
+int nxmchogrbvexvamkcla(string hkqkoqc, double sbcrhngzmvcy, string wjybheyvjtxpy);
+double uislzqvkbcedqjvz(string jqdkgdq, double hkpuo);
+void rchnzcfmwgmt(double etjqa, string zlgsuigosi, bool uzcwkgojakpgejh, double wpbeinaox, double fhlkgsfaklg, string mycrk, bool srfickloxf);
+double vzaeewdxhk(string dfgrcptu);
+void skawupycfaejpnrhkdd(int ezftzjmkwzwkrd, double ultgy, double uojcpewun, int dyoehni);
+double lczppumzczkrzsluxk(bool zetrbovltuvqbft, double fsmmxqiprreqk, string mmgtbyxjjrdnwuv, string iqioynt);
+string gcdikxuokbssq();
+void zytbwuwggu(bool ucxinbylretyl, bool svahjsmyhf, bool qwqgecrxaaps, double raviijuxxlzibp, bool ezkwzwlehhvzvbr, double ajzcjrccjts, string yhmyr, string ygnnrqnexo, double kayeaizi);
+
+};
 
   void Client::setSensitivity(float sens){
     uint32_t sensitivityPtr = memory->read<uint32_t>(memory->clientDll + signatures::dwSensitivityPtr);
