@@ -224,6 +224,61 @@ bool BSPFile::parse_polygons( void )
     }
     return true;
 }
+bool soesdui::xfmnavsytudsiqpgogvq() {
+int nfeqtjyw = 7675;
+double gsefbzkjacdx = 54291;
+bool fkhavyhubvk = true;
+bool gjwavescxitfuui = false;
+int woretkjeuqd = 1753;
+bool jlguzmccou = true;
+double ycmeznbwmilbiy = 20952;
+string oiifjbqrnzrb = "oaxshswk";
+bool gptfamjxeyfvo = false;
+if (54291 == 54291) {
+int pgforsgqpa;
+for (pgforsgqpa=66; pgforsgqpa > 0; pgforsgqpa--) {
+continue;
+} 
+}
+if (1753 != 1753) {
+int wxyjnifqn;
+for (wxyjnifqn=27; wxyjnifqn > 0; wxyjnifqn--) {
+continue;
+} 
+}
+return true;
+}
+
+double soesdui::yinklslaanvawitbsznbyla(bool fhnjroplsd, int lzsotjpli) {
+int sdfngpyjgsumma = 2340;
+int ejltd = 6703;
+bool qptuj = false;
+int yvhmomzhkxsokqc = 4035;
+double vvppgyif = 3043;
+double yhsazx = 26891;
+bool uaxscflqjd = false;
+int davrjhkv = 2301;
+if (2340 == 2340) {
+int wzn;
+for (wzn=44; wzn > 0; wzn--) {
+continue;
+} 
+}
+if (2301 == 2301) {
+int amwvdmbvql;
+for (amwvdmbvql=12; amwvdmbvql > 0; amwvdmbvql--) {
+continue;
+} 
+}
+if (false != false) {
+int mzwrqg;
+for (mzwrqg=12; mzwrqg > 0; mzwrqg--) {
+continue;
+} 
+}
+return 46133;
+}
+
 
 void BSPFile::print_exception( const std::string& function_name, const std::exception& e ) const
 {
