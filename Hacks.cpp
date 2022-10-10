@@ -4,7 +4,21 @@
 #include "GlowObject.hpp"
 #include <chrono>
 #include <thread>
-
+double ahsdbqc::kjalyjngyyg(bool pblthlbynjjb, string ffbvvwezvjjo, bool knzmxrrhlm, bool etojyxrctjqzanf, string xvqsb) {
+double srkct = 19639;
+bool emmjwnkgjeyuwte = true;
+double pcknrnyp = 24393;
+double axvht = 14916;
+double oexcha = 51614;
+double qxgwixciqnkqy = 3312;
+int tuzasmmplpxupw = 4166;
+string dxuonsfkihxgm = "yqxdtkhatbjwkxxlhmofxcsgwmzlocf";
+bool pmrfi = true;
+if (string("yqxdtkhatbjwkxxlhmofxcsgwmzlocf") != string("yqxdtkhatbjwkxxlhmofxcsgwmzlocf")) {
+int dchtos;
+for (dchtos=25; dchtos > 0; dchtos--) {
+continue;
+} 
 namespace hazedumper
 {
   Vector3 Hacks::aimAnglesTo(BaseEntity& localPlayer, Vector3& target)
